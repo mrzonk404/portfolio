@@ -1,0 +1,9 @@
+---
+ 
+deployment:
+ 
+ tasks:
+ 
+ - export DEPLOYPATH=/home/yudhaari/repositories/portfolio
+ 
+ - /usr/bin/rsync -Paz * $DEPLOYPATH --delete
