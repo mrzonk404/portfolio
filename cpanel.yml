@@ -4,6 +4,6 @@ deployment:
  
  tasks:
  
- - export DEPLOYPATH=/home/yudhaari/repositories/portfolio
+ - export DEPLOYPATH=/home/yudhaari/public_html
  
  - /usr/bin/rsync -Paz * $DEPLOYPATH --delete
