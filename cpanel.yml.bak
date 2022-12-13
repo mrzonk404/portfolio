@@ -1,9 +1,0 @@
----
- 
-deployment:
- 
- tasks:
- 
- - export DEPLOYPATH=/home/yudhaari/public_html
- 
- - /bin/cp index.php $deploypath
