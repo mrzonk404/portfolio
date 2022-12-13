@@ -6,4 +6,4 @@ deployment:
  
  - export DEPLOYPATH=/home/yudhaari/public_html
  
- - /usr/bin/rsync -Paz * $DEPLOYPATH --delete
+ - /bin/cp index.php $deploypath
