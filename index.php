@@ -271,7 +271,7 @@ if ($currentYear > $copyrightYear) {
     $copyrightYear = $currentYear;
 }
 
-echo "Copyright $copyrightYear All Right Deserved";
+echo "&copy;Copyright $copyrightYear All Right Deserved";
 ?>
 	  
 	 
