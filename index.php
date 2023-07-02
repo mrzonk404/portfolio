@@ -263,16 +263,7 @@ echo "<script>window.location = 'https://api.whatsapp.com/send?phone=62812911278
 
     <footer class="footer">
       <span class="footer-title">Yudha Arif Rakhmansyah</span>
-      <?php
-$currentYear = date('Y');
-$copyrightYear = 2023;
-
-if ($currentYear > $copyrightYear) {
-    $copyrightYear = $currentYear;
-}
-
-echo "Copyright $copyrightYear All Right Deserved";
-?>
+      <p>Copyright @2022. All Rights Reserved.</p>
 	  
 	 
     </footer>
